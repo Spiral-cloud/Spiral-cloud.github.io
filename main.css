@@ -1,5 +1,11 @@
 .center
 {
     text-align: center;
-    color: darkslategrey;
+    color: azure;
+}
+body
+{
+    background-color: dimgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
 }
