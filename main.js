@@ -25,7 +25,7 @@ function ShowTime()
     min = min < 1 ? "0" + min : min;
     sec = sec < 1 ? "0" + sec : sec;
     let currentTime = hour + ":" + min + "" + sec + am_pm;
-    document.getElementById("clock").innerHTML = currentTime;
 }
+document.getElementById("clock").innerHTML = currentTime;
 
 ShowTime();
